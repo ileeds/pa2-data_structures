@@ -1,0 +1,9 @@
+I have set up the driver class to initialize a hashTable of size 1000,
+and inserts hashElements with keys of random strings (5-15 letters long)
+and values of 1. The distribution seems to work well; when 1000 elements
+are inserted, it seems that the most collisions that might occur will
+be around 5, and generally less than that. With 10,000 elements, there are
+very few 0's, and the most collisions in any one tree is around 20, while
+most have around 5-10. For various sizes of the table and number of inputs,
+the table always looks reasonably distributed, for both prime and non-
+prime numbers.
